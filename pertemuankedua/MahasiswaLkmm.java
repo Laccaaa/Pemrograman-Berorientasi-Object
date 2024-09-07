@@ -1,7 +1,7 @@
 
 package pertemuankedua;
 
-public class MahasiswaLkmm extends TingkatMenengah implements evaluasiKegiatan, LaporanProgres, Pemandu{
+public class MahasiswaLkmm extends TingkatMenengah implements EvaluasiKegiatan, LaporanProgres, Pemandu{
     
     public MahasiswaLkmm(String nama){
         super.setKoordinasiTim("tim 9");
