@@ -3,6 +3,6 @@
 package pertemuankedua;
 
 
-public interface evaluasiKegiatan {
+public interface EvaluasiKegiatan {
     public void mengevaluasiKegiatan();
 }
