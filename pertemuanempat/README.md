@@ -26,5 +26,6 @@ Throws adalah cara lain untuk menangani exception di Java. Dengan throws, progra
   - Throws: Jika terjadi kesalahan, pesan error ditampilkan dan program dihentikan.
 
 **Custom Exception**
+
 Custom Exception adalah mekanisme di Java yang memungkinkan kita membuat exception sendiri sesuai dengan kebutuhan aplikasi. Dengan custom exception, kita dapat memberikan pesan error yang lebih spesifik dan sesuai kebutuhan. Custom Exception biasanya digunakan untuk menangani kasus-kasus yang tidak dapat ditangani oleh exception bawaan Java.
 
