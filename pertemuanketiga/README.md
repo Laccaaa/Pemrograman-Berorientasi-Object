@@ -1,4 +1,4 @@
-Padaroject ini kita  mengimplementasi konsep Object-Oriented Programming (OOP) dalam Java, yang melibatkan **Abstract Class**, **Method Overloading**, dan **Method Overriding**. Project ini menggunakan kasus struktur sekolah dari **Sekolah Dasar**, **Sekolah Menengah Pertama**, hingga **Sekolah Menengah Atas**.
+Pada project ini kita  mengimplementasi konsep Object-Oriented Programming (OOP) dalam Java, yang melibatkan **Abstract Class**, **Method Overloading**, dan **Method Overriding**. Project ini menggunakan kasus struktur sekolah dari **Sekolah Dasar**, **Sekolah Menengah Pertama**, hingga **Sekolah Menengah Atas**.
 
 **Abstract Class**
 
