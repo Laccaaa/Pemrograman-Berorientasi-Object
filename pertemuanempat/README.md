@@ -1,6 +1,7 @@
 Pada project ini, saya membahas beberapa fitur penting dalam pengembangan aplikasi berbasis Java, yaitu operasi dasar pada database menggunakan **Java CRUD**, penanganan kesalahan (Exception Handling) menggunakan **`Try-Catch`** dan **`Throws`**, serta penerapan **Custom Exception** untuk penanganan error yang lebih spesifik dan sesuai kebutuhan.
 
 **Java CRUD**
+
 CRUD adalah singkatan dari **Create**, **Read**, **Update**, dan **Delete**, yang merupakan empat operasi dasar dalam pengelolaan data pada database. Dalam project ini, saya  mengkoneksikan Java dengan database menggunakan JDBC (Java Database Connectivity) untuk menjalankan operasi-operasi tersebut. Berikut adalah operasi yang diimplementasikan:
 - **Create**: Menambahkan data baru ke database.
 - **Read**: Membaca dan menampilkan data dari database.
