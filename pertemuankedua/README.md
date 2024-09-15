@@ -8,6 +8,7 @@ Constructor adalah sebuah method spesial yang memiliki nama yang sama dengan nam
 **THIS AND SUPER METHOD**
 
  • **this** digunakan untuk memanggil objek dari kelas itu sendiri. Ini berguna ketika ada nama variabel yang sama antara parameter dan atribut kelas.
+ 
  • **super**  digunakan untuk memanggil method atau constructor dari kelas induk.
 
 
@@ -17,6 +18,7 @@ Castingadalah proses mengubah tipe data dari satu tipe ke tipe lainnya. Terdapat
 
 
 •**Primitif**: Mengubah tipe data primitif, seperti dari int ke double.
+
 •**Referensi**: Mengubah tipe objek atau kelas ke tipe turunannya (downcasting) atau tipe induknya (upcasting). Dalam casting, constructor tidak dipanggil, karena yang berubah hanya referensi atau nilai data.
 
 
