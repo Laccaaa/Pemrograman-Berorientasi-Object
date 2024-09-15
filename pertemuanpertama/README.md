@@ -15,8 +15,11 @@ Subclass adalah kelas yang mewarisi atribut dan metode dari superclass. Contoh d
 
 
 Untuk mengakses atribut dan method java memiliki modifier akses. Berikut adalah penjelasan mengenai modifer akses yang tersedia:
+
 **-Public:** Anggota kelas yang dideklarasikan dengan public dapat diakses dari mana saja, baik dari kelas lain dalam paket yang sama maupun dari paket lain.
+
 **-Protected:** Anggota kelas yang dideklarasikan dengan protected dapat diakses oleh kelas dalam paket yang sama atau oleh kelas yang merupakan subclass dari kelas tersebut.
+
 **-Private:** Anggota kelas yang dideklarasikan dengan private hanya dapat diakses dari dalam kelas itu sendiri. Meskipun private tidak bisa diwariskan langsung, akses ke atribut atau method private dapat dilakukan melalui **getter** dan **setter**.
 
 **Getter dan Setter**
