@@ -8,7 +8,7 @@ package pertemuanempat;
  *
  * @author Lenovo
  */
-public class MeiException extends Exception {
+public class MeiException extends NumberFormatException {
     public MeiException(String pesan){
     super(pesan);
 }
