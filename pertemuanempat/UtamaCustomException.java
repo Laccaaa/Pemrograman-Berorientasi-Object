@@ -17,7 +17,6 @@ public class UtamaCustomException {
 
         int x0, y0, x1, y1;
 
-        // Ambil input dari pengguna
         System.out.print("Masukkan koordinat x0: ");
         x0 = Integer.parseInt(scanner.nextLine());
 
