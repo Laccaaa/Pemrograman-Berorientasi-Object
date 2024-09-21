@@ -8,3 +8,9 @@
 2. Read - Tampilkan data dari database ke dalam tabel.
 3. Update - Edit data yang sudah ada dalam database.
 4. Delete - Hapus data dari database.
+
+## Teknologi Pendukung
+- **Java**: Bahasa pemrograman utama yang digunakan untuk logika aplikasi.
+- **NetBeans IDE**: IDE yang digunakan untuk membangun GUI dan mengelola proyek.
+- **JDBC (Java Database Connectivity)**: Untuk menghubungkan aplikasi dengan database.
+- **PostgreSQL** (atau database lain sesuai kebutuhan): Database untuk menyimpan data.
