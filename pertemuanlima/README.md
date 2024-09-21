@@ -26,8 +26,8 @@
 -Pastikan library JDBC yang mendukung koneksi ke database juga sudah tersedia.
 
 ### Langkah Instalasi
-**1. Clone atau Unduh Proyek**
 
+**1. Clone atau Unduh Proyek**
 
 ```bash
 git clone https://github.com/Laccaaa/Pemrograman-Berorientasi-Object.git
