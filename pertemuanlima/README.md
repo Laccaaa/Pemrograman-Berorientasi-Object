@@ -30,6 +30,7 @@
 ```bash
 git clone https://github.com/Laccaaa/Pemrograman-Berorientasi-Object.git
 cd Pemrograman-Berorientasi-Object/pertemuanlima
+```bash
 
 **2. Buat Database**
 - Buat database di PostgreSQL (atau database lain yang kamu gunakan) dengan nama dan tabel yang sesuai, misalnya:
