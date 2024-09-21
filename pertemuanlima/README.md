@@ -26,10 +26,21 @@
 -Pastikan library JDBC yang mendukung koneksi ke database juga sudah tersedia.
 
 ### Langkah Instalasi
-1. Clone atau Unduh Proyek
+**1. Clone atau Unduh Proyek**
 ```bash
 git clone https://github.com/Laccaaa/Pemrograman-Berorientasi-Object.git
 cd Pemrograman-Berorientasi-Object/pertemuanlima
+
+**2. Buat Database**
+- Buat database di PostgreSQL (atau database lain yang kamu gunakan) dengan nama dan tabel yang sesuai, misalnya:
+```sql
+CREATE TABLE tabel_tugas (
+    id_tugas VARCHAR(10) PRIMARY KEY,
+    mata_kuliah VARCHAR(100) NOT NULL,
+    deskripsi TEXT,
+    status VARCHAR(15) CHECK (status IN ('Pending', 'In Progres', 'Completed'))
+);
+
 
 
    
