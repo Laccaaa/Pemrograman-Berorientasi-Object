@@ -18,11 +18,18 @@
 ## Instalasi Aplikasi
 ### Pra-syarat
 -**Java JDK** harus sudah diinstal di sistem.
+
 -Pastikan **NetBeans IDE** terpasang dan siap digunakan.
+
 -Siapkan **PostgreSQL** atau database lain yang kompatibel dengan aplikasi.
+
 -Pastikan library JDBC yang mendukung koneksi ke database juga sudah tersedia.
 
 ### Langkah Instalasi
 1. Clone atau Unduh Proyek
+'''bash
+git clone https://github.com/Laccaaa/Pemrograman-Berorientasi-Object.git
+cd Pemrograman-Berorientasi-Object/pertemuanlima
+
    
 
