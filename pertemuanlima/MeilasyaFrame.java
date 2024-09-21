@@ -19,7 +19,7 @@ public class MeilasyaFrame extends javax.swing.JFrame {
     String driver = "org.postgresql.Driver";
     String koneksi = "jdbc:postgresql://localhost:5432/Daftar Tugas";
     String user = "postgres";
-    String password = "cantikitu5";
+    String password = "password";
     
     public MeilasyaFrame() {
         initComponents();
