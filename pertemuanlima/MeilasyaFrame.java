@@ -17,8 +17,8 @@ public class MeilasyaFrame extends javax.swing.JFrame {
     PreparedStatement pstmt;
 
     String driver = "org.postgresql.Driver";
-    String koneksi = "jdbc:postgresql://localhost:5432/Daftar Tugas";
-    String user = "postgres";
+    String koneksi = "jdbc:postgresql://localhost:5432/Name Database";
+    String user = "username";
     String password = "password";
     
     public MeilasyaFrame() {
@@ -67,7 +67,7 @@ public class MeilasyaFrame extends javax.swing.JFrame {
     public void insert(String id_tugas, String mata_kuliah, String deskripsi, String status){
         String sql = "INSERT INTO tugas VALUES (?,?,?,?)";
         try {
-            conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/Daftar Tugas", "postgres", "cantikitu5");
+            conn = DriverManager.getConnection(koneksi, user, password);
             pstmt = conn.prepareStatement(sql);
             pstmt.setString (1, id_tugas);
             pstmt.setString (2, mata_kuliah);
@@ -85,7 +85,7 @@ public class MeilasyaFrame extends javax.swing.JFrame {
     public void update(String id_tugas, String statusBaru){
         String sql = "UPDATE tugas SET status = ? WHERE id_tugas = ?";
         try{
-            conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/Daftar Tugas", "postgres", "cantikitu5");
+            conn = DriverManager.getConnection(koneksi, user, password);
             pstmt = conn.prepareStatement(sql);
             pstmt.setString(1, statusBaru);
             pstmt.setString(2, id_tugas);
@@ -100,7 +100,7 @@ public class MeilasyaFrame extends javax.swing.JFrame {
     public void delete(String id_tugas) {
     String sql = "DELETE FROM tugas WHERE id_tugas = ?";
     try {
-        conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/Daftar Tugas", "postgres", "cantikitu5");
+        conn = DriverManager.getConnection(koneksi, user, password);
         pstmt = conn.prepareStatement(sql);
         pstmt.setString(1, id_tugas);
         pstmt.executeUpdate();
