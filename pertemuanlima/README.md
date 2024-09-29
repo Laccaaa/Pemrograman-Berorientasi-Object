@@ -31,7 +31,7 @@
 
 ```bash
 git clone https://github.com/Laccaaa/Pemrograman-Berorientasi-Object.git
-cd Pemrograman-Berorientasi-Object/pertemuanlima
+cd Pemrograman-Berorientasi-Object/pertemuanlima```
 
 
 **2. Buat Database**
