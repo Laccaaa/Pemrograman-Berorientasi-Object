@@ -48,6 +48,8 @@ CREATE TABLE tabel_tugas (
 );```
 
 
+
+
 **3. Buka Proyek Di NetBeans**
 Buka NetBeans IDE, lalu pilih opsi untuk membuka proyek. Arahkan folder proyek yang telah di clone.
 
