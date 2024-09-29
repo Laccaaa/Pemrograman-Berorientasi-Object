@@ -47,10 +47,10 @@ CREATE TABLE tabel_tugas (
     status VARCHAR(15) CHECK (status IN ('Pending', 'In Progres', 'Completed'))
 );
 
+**3. Buka Proyek Di NetBeans**
+Buka NetBeans IDE, lalu pilih opsi untuk membuka proyek. Arahkan folder proyek yang telah di clone.
 
-
-
-
-
-   
-
+**4. Konfigurasi Koneksi Database**
+Sesuaikan string koneksi database dengan kredensial dan URL dari database yang kamu gunakan. Contoh:
+```java
+Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/nama_database", "user", "password");
