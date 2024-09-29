@@ -45,9 +45,8 @@ CREATE TABLE tabel_tugas (
     mata_kuliah VARCHAR(100) NOT NULL,
     deskripsi TEXT,
     status VARCHAR(15) CHECK (status IN ('Pending', 'In Progres', 'Completed'))
-);```
-
-
+);
+```
 
 
 **3. Buka Proyek Di NetBeans**
@@ -57,3 +56,16 @@ Buka NetBeans IDE, lalu pilih opsi untuk membuka proyek. Arahkan folder proyek y
 Sesuaikan string koneksi database dengan kredensial dan URL dari database yang kamu gunakan. Contoh:
 ```java
 Connection con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/nama_database", "user", "password");
+```
+
+**5. Jalankan Aplikasi**
+Setelah semua pengaturan selesai dan disesuaikan, klik tombol **Run** di NetBeans untuk menjalankan aplikasi.
+
+## Penggunaan Aplikasi
+-Tambah Data: Isi form input, lalu tekan tombol Tambah untuk memasukkan data ke dalam database.
+
+-Edit Data: Klik baris pada tabel, edit form input, lalu tekan tombol Edit untuk memperbarui data.
+
+-Hapus Data: Klik baris pada tabel, lalu tekan tombol Hapus untuk menghapus data dari database.
+
+-Data akan secara otomatis ditampilkan di tabel setelah menambahkan atau memperbarui data.
