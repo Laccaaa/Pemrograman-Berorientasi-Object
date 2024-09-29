@@ -45,7 +45,8 @@ CREATE TABLE tabel_tugas (
     mata_kuliah VARCHAR(100) NOT NULL,
     deskripsi TEXT,
     status VARCHAR(15) CHECK (status IN ('Pending', 'In Progres', 'Completed'))
-);
+);```
+
 
 **3. Buka Proyek Di NetBeans**
 Buka NetBeans IDE, lalu pilih opsi untuk membuka proyek. Arahkan folder proyek yang telah di clone.
