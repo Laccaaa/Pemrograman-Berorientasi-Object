@@ -18,7 +18,7 @@ public class SoalTerakhir extends javax.swing.JFrame {
     String driver = "org.postgresql.Driver";
     String koneksi = "jdbc:postgresql://localhost:5432/Simulasi_UTS";
     String user = "postgres";
-    String password = "cantikitu5";
+    String password = "password";
 
     public SoalTerakhir() {
         initComponents();
@@ -97,6 +97,22 @@ public class SoalTerakhir extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "ID Tugas tidak ditemukan" + ex.getMessage(), "Gagal", JOptionPane.ERROR_MESSAGE);
         }
     }
+
+    public void delete(String isbn) {
+    
+    try {
+        String sql = "DELETE FROM buku WHERE isbn = ?";
+        conn = DriverManager.getConnection(koneksi, user, password);
+        pstmt = conn.prepareStatement(sql);
+        pstmt.setString(1, isbn);
+        pstmt.executeUpdate();
+            JOptionPane.showMessageDialog(this, "Data berhasil dihapus", "Sukses", JOptionPane.INFORMATION_MESSAGE);
+        clear();
+    } catch (SQLException ex) {
+        JOptionPane.showMessageDialog(this, "Data gagal dihapus: " + ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+        Logger.getLogger(SoalTerakhir.class.getName()).log(Level.SEVERE, null, ex);
+    }
+}
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -321,22 +337,6 @@ public class SoalTerakhir extends javax.swing.JFrame {
         }
         tampil();
     }//GEN-LAST:event_btnEditActionPerformed
-
-    public void delete(String isbn) {
-    
-    try {
-        String sql = "DELETE FROM buku WHERE isbn = ?";
-        conn = DriverManager.getConnection(koneksi, user, password);
-        pstmt = conn.prepareStatement(sql);
-        pstmt.setString(1, isbn);
-        pstmt.executeUpdate();
-            JOptionPane.showMessageDialog(this, "Data berhasil dihapus", "Sukses", JOptionPane.INFORMATION_MESSAGE);
-        clear();
-    } catch (SQLException ex) {
-        JOptionPane.showMessageDialog(this, "Data gagal dihapus: " + ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
-        Logger.getLogger(SoalTerakhir.class.getName()).log(Level.SEVERE, null, ex);
-    }
-}
     
     private void btnHapusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHapusActionPerformed
         // TODO add your handling code here:
