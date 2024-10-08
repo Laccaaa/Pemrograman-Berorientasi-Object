@@ -41,8 +41,37 @@ CREATE TABLE MataKuliah (
 6. Import library JDBC
  ![image](https://github.com/user-attachments/assets/3aec6529-6669-49f9-8fb2-f77eeb4ec25b)
 
-7. Masukkan sourcode Uts_Pbo untuk menjalankan CRUD.
-   ![image](https://github.com/user-attachments/assets/f3ff1d58-91ae-458e-8781-2a8a766406da)
+7. Buat method **tampil()** untuk menampilkan data dari database ke tabel di aplikasi.
+  ![image](https://github.com/user-attachments/assets/1b7e21de-61c9-4d13-8c60-ce45c2fdaedc)
+
+8. Panggil method **tampil()** di konstruktor JFrame Class agar data otomatis ditampilkan saat aplikasi dibuka.
+   ![image](https://github.com/user-attachments/assets/39fde93b-c7ff-40ac-bfb7-b9cf15423f47)
+   
+10.  Buat method **clear()** yang digunakan untuk mengosongkan text field setelah melakukan CRUD.
+    ![image](https://github.com/user-attachments/assets/89039231-7fed-4130-9787-9497d9a2334e)
+
+11. Buat metode **insert()** untuk menambahkan data ke database melalui aplikasi.
+    ![image](https://github.com/user-attachments/assets/45bcb106-24ba-4de5-a04d-f382def6c8de)
+    
+13.  Klik dua kali tombol "Tambah" di tab **Design** untuk mengarahkan ke source code tombol tersebut.
+![image](https://github.com/user-attachments/assets/8668c05f-88ab-46ce-8b35-9e8a81344158)
+
+14.  Buat method **update()** untuk memperbarui data yang sudah ada di dalam database melalui aplikasi.
+    ![image](https://github.com/user-attachments/assets/aa4b0baf-7113-486b-8dc1-667b565ad626)
+
+15. Klik kanan tabel kemudian pilih **events** pilih **mouse** pilih **mouseClicked** untuk mengarah ke source code mouseClicked.
+    ![image](https://github.com/user-attachments/assets/237339a7-aff1-4d5f-8eef-b684e37f29fe)
+
+ 16. Klik dua kali tombol "Edit" di tab **Design** untuk mengarahkan ke source code tombol tersebut.
+     ![image](https://github.com/user-attachments/assets/1e608514-e4f3-471b-9d44-e1417b1a50be)
+
+17. Buat method **delete()** untuk menghapus data yang sudah ada di dalam database melalui aplikasi
+    ![image](https://github.com/user-attachments/assets/384756c9-769a-43d4-8e0f-4393b7bafa0a)
+
+18.  Klik dua kali tombol "Hapus" di tab **Design** untuk mengarahkan ke source code tombol tersebut.
+    ![image](https://github.com/user-attachments/assets/465ab5ec-df68-4212-bca3-76142e102a2a)
+    
+
 
 ## **Penggunaan APlikasi**
 ### Input Data
