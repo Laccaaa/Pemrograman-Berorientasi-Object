@@ -1,0 +1,2 @@
+# Aplikasi CRUD Sederhana, Java Swing + PostgreSQL
+Java Swing CRUD adalah aplikasi sederhana yang menggunakan JFrame untuk melakukan operasi Create, Read, Update, dan Delete dengan PostgreSQL sebagai basis datanya. Program ini dibuat sebagai Ujian Tengah Semester mata kuliah Pemrograman Berorientasi Objek. Dalam program ini menggunakan studi kasus Mata Kuliah dengan atribut KodeMk, SKS, namaMk dan SemesterAjar.
