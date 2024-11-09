@@ -18,13 +18,13 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import javax.swing.filechooser.FileSystemView;
 import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.Query;
 import javax.swing.JFileChooser;
-import javax.swing.filechooser.FileSystemView;
 import javax.swing.table.DefaultTableModel;
 import net.sf.jasperreports.engine.JRException;
 import net.sf.jasperreports.engine.JasperFillManager;
@@ -52,6 +52,8 @@ public class Tampilan extends javax.swing.JFrame {
             initComponents();
             Connection conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/UTS_PBO", "postgres", "cantikitu5");
             tampil();
+            btnEdit.setEnabled(false);
+            btnHapus.setEnabled(false);
         } catch (SQLException ex) {
             Logger.getLogger(Tampilan.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -80,7 +82,11 @@ public class Tampilan extends javax.swing.JFrame {
         txtSks.setText("");
         txtNama.setText("");
         txtSmt.setText("");
+        btnEdit.setEnabled(false);
+        btnHapus.setEnabled(false);
         txtKode.setEditable(true);
+       
+        btnTambah.setEnabled(true);
     }
 
     /**
@@ -220,10 +226,6 @@ public class Tampilan extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(352, 352, 352)
-                .addComponent(jLabel1)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(btnTambah)
@@ -256,19 +258,23 @@ public class Tampilan extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 62, Short.MAX_VALUE)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 551, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(52, 52, 52))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jLabel1)
+                .addGap(349, 349, 349))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(20, 20, 20)
+                .addGap(19, 19, 19)
                 .addComponent(jLabel1)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(37, 37, 37)
+                        .addGap(38, 38, 38)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 470, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap(89, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(67, 67, 67)
+                        .addGap(68, 68, 68)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabel2)
                             .addComponent(txtKode, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -427,6 +433,9 @@ public class Tampilan extends javax.swing.JFrame {
             txtSks.setText(sks);
             txtNama.setText(namaMk);
             txtSmt.setText(semesterAjar);
+            btnTambah.setEnabled(false);
+            btnEdit.setEnabled(true);
+            btnHapus.setEnabled(true);
         }
     }//GEN-LAST:event_TabelMouseClicked
 
