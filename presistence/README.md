@@ -27,6 +27,29 @@ Klik _Next_ untuk melanjutkan ke langkah selanjutnya.
 ### 5. Klik Finish
   Tekan Finish untuk menyelesaikan konfigurasi, lalu kelas entitas akan dibuat secara otomatis berdasarkan tabel yang dipilih.
 
+![image](https://github.com/user-attachments/assets/b27c0c7c-bddd-443b-bd1e-730069db0212)
 
-### 6. Tekan Finish untuk menyelesaikan konfigurasi, lalu kelas entitas akan dibuat secara otomatis berdasarkan tabel yang dipilih.
+### 6. Tambahkan Code untuk Operasi CRUD
+#### 1. Insert Data
+![image](https://github.com/user-attachments/assets/6f947af4-b3a9-4578-a6b6-60d27caa26a7)
+
+#### 2. Update Data
+![image](https://github.com/user-attachments/assets/f1c01092-eaee-47a6-893e-faae65285bef)
+
+#### 3. Delete Data
+![image](https://github.com/user-attachments/assets/3bc36255-029d-48cc-822b-79c5fc0cee5f)
+
+#### 4. Read Data
+![image](https://github.com/user-attachments/assets/27c38440-4e9c-4cef-b828-223aa013b04e)
+
+### 7. Tambahkan Tombol untuk Cetak dan Unggah
+Buat tombol untuk mencetak data yang diambil dari database kemudia di jadikan report, dan tambahkan tombol untuk mengunggah data baru dalam format .csv yang kemudian disimpan ke dalam database.
+
+#### 1. Cetak
+![image](https://github.com/user-attachments/assets/79eebf23-d5f7-4441-b7a4-bd945efcd618)
+
+#### 2. Unggah
+![image](https://github.com/user-attachments/assets/84422734-e921-48b9-8199-3f55891312e8)
+![image](https://github.com/user-attachments/assets/beca210f-695a-481b-9798-3dfce8511333)
+
 
