@@ -33,7 +33,7 @@ Buat kelas entitas dari database untuk persistence data menggunakan fitur `Entit
 
 
 ### 3. Impor Kelas yang terdapat CRUD  
-Tambahkan kelas `Tampilan`, yang berisi program CRUD sederhana, ke dalam package yang sama dengan formulir login.  
+Tambahkan kelas `Tampilan`, yang berisi program CRUD sederhana, ke dalam package yang sama dengan class login.  
 ![image](https://github.com/user-attachments/assets/74b47b8f-6d85-4d3a-bf82-df4a9660ba18)
 
 
@@ -73,13 +73,13 @@ Sertakan import berikut pada kelas:
 
 #### e. Label Login  
 - Klik kanan label **Login** > **Events > Mouse > mouseClicked**.  
-- Tambahkan kode untuk kembali ke formulir login.
+- Tambahkan kode untuk kembali ke class login.
   ![image](https://github.com/user-attachments/assets/367cb3ef-0cd2-4fb1-862a-64364ac6f9e7)
  
 
 #### f. Label Back  
 - Klik kanan label **Back** > **Events > Mouse > mouseClicked**.  
-- Tambahkan kode untuk kembali ke formulir login.  
+- Tambahkan kode untuk kembali ke class login.  
 ![image](https://github.com/user-attachments/assets/cbf87ab3-db41-4cbd-ad55-2d3d73182ee4)
 
 
