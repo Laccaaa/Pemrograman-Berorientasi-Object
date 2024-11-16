@@ -37,8 +37,8 @@ Tambahkan kelas `Tampilan`, yang berisi program CRUD sederhana, ke dalam package
 ![image](https://github.com/user-attachments/assets/74b47b8f-6d85-4d3a-bf82-df4a9660ba18)
 
 
-### 4. Tambahkan Import di Kelas Utama  
-Sertakan import kelas `Tampilan` pada kelas:  
+### 4. Tambahkan Import 
+Sertakan import berikut pada kelas:  
 - `Login`  
 - `Sign In`  
 - `Forgot Password`
